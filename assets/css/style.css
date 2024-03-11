@@ -66,18 +66,26 @@ header {
       padding-top: 0px;
       padding-bottom: 0px;
       background: #ffffff !important; }
-      header .navber_nav .navbar .collapse ul .nav-item .nav-link {
+      header .navber_nav .navbar .collapse .main_nav .nav-item .nav-link {
         font-size: 16px;
         font-weight: 500;
         transition: all 0.3s;
         padding: 10px 16px;
         margin: 8px 5px 5px 0; }
-      header .navber_nav .navbar .collapse ul .nav-item :hover {
+      header .navber_nav .navbar .collapse .main_nav .nav-item :hover {
         color: #ffffff !important;
         background: #000; }
-      header .navber_nav .navbar .collapse ul .nav-item .active {
+      header .navber_nav .navbar .collapse .main_nav .nav-item .active {
         color: #ffffff !important;
         background: #000; }
+      header .navber_nav .navbar .collapse .main_nav .dropdown :hover {
+        color: #000 !important;
+        background: #fff; }
+      header .navber_nav .navbar .collapse .main_nav .dropdown ul li {
+        background: #fff; }
+        header .navber_nav .navbar .collapse .main_nav .dropdown ul li :hover {
+          color: #fff !important;
+          background: #000; }
 
 .home_slider {
   display: block; }

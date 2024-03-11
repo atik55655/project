@@ -92,7 +92,7 @@ header {
       padding-bottom: 0px;
       background: $headerbg !important;
       .collapse {
-        ul {
+        .main_nav {
           .nav-item {
             .nav-link {
               font-size: 16px;
@@ -108,6 +108,21 @@ header {
             .active {
               color: $white !important;
               background: $block;
+            }
+          }
+          .dropdown {
+            :hover {
+              color: #000 !important;
+              background: #fff;
+            }
+            ul {
+              li {
+                background: #fff;
+                :hover {
+                  color: #fff !important;
+                  background: #000;
+                }
+              }
             }
           }
         }
@@ -185,8 +200,6 @@ header {
   .container {
     background-color: #ffffff;
   }
-
- 
 }
 
 .recently_viewd {
