@@ -58,8 +58,10 @@ header {
         transition: all 0.3s; }
         header .header_medil .container .medil .medil_center .search_top i {
           color: #ffffff !important; }
-      header .header_medil .container .medil .medil_end li i {
-        font-size: 25px; }
+      header .header_medil .container .medil .medil_end {
+        margin-left: auto; }
+        header .header_medil .container .medil .medil_end li i {
+          font-size: 25px; }
   header .navber_nav {
     border-bottom: 0.1px solid gray; }
     header .navber_nav .navbar {
